@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\chara">
+      <UniqueIdentifier>{8b641cd7-785e-4b12-a686-fd7b3a2cb448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{e0b4bfbf-6275-4c63-8a8b-2f7337c2f3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{dbb9b6a5-e7dd-4da1-9c03-8a13343b3dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\chara">
+      <UniqueIdentifier>{13a48743-455b-49e1-95f4-bd3f6b6db54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main">
+      <UniqueIdentifier>{4fa41da3-b31c-42a4-9d36-df7082bae4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{ab9dd861-e595-4c79-bff0-3025a39e9ed7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileName.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="code\game.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="code\enemy.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="code\map.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="code\player.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="code\npc.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\render.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\main.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\game.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\enemy.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="code\map.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="code\player.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="code\npc.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
